@@ -3,16 +3,16 @@
 # Installation process:
 ## Now simply run the below command in your terminal
 
-$ `brew install` mysql
+`brew install` mysql
 ## Start the MySQL service
 
-$ `brew services start mysql`
+`brew services start mysql`
 ## Set root MySQL password
 
-$ `mysqladmin -u root password 'secretpassword'`
+`mysqladmin -u root password 'secretpassword'`
 ## Access MySQL on mac
 
-$ `mysql -u root -p`
+`mysql -u root -p`
 
 Once you have ran brew update you can then upgrade all formulas/packages using:
 
